@@ -25,15 +25,19 @@ const ContactInfo = () => {
 							<div className="icon">
 								<Icon.MapPin />
 							</div>
-							<h3>Head Quarters</h3>
+							{/* <h3>Head Quarters</h3>
 							<p>
 								Unit No. 2501 & 2502, Jumeirah Business Center-4, Plot No.N2,
 								Jumeirah Lake Towers, PO Box: 634302, Dubai, UAE
+							</p> */}
+							<p>
+								UNITED INTERNATIONAL PIPING UK LIMITED Registered in United
+								Kingdom, Number: 13332336
 							</p>
 						</div>
 					</div>
 
-					<div className="col-lg-4 col-md-6 col-sm-6">
+					{/* <div className="col-lg-4 col-md-6 col-sm-6">
 						<div className="contact-info-box">
 							<div className="icon">
 								<Icon.Phone />
@@ -48,7 +52,7 @@ const ContactInfo = () => {
 								<a>+971 4 432 8439</a>
 							</p>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>

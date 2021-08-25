@@ -104,9 +104,13 @@ const Footer = () => {
 							<ul className="footer-contact-info">
 								<li>
 									<Icon.MapPin />
-									<a href="https://goo.gl/maps/hMwnCUiEGACDSSYR9">
+									{/* <a href="https://goo.gl/maps/hMwnCUiEGACDSSYR9">
 										Unit No. 2501 & 2502, Jumeirah Business Center-4, Plot
 										No.N2, Jumeirah Lake Towers
+									</a> */}
+									<a>
+										UNITED INTERNATIONAL PIPING UK LIMITED Registered in United
+										Kingdom, Number: 13332336
 									</a>
 								</li>
 
@@ -117,10 +121,10 @@ const Footer = () => {
 										info@unitedpipinggroup.com
 									</a>
 								</li>
-								<li>
+								{/* <li>
 									<Icon.PhoneCall />
 									Phone: <a href="tel:+97144328542">+971 4 432 8542</a>
-								</li>
+								</li> */}
 							</ul>
 						</div>
 					</div>
