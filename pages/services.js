@@ -138,29 +138,6 @@ const ServiceDetails = () => {
 						</div>
 
 						<div className="separate"></div>
-
-						<div className="row align-items-center">
-							<div className="col-lg-6 services-details">
-								<div className="services-details-desc">
-									<h3>Fabrication</h3>
-									<h4>Project management</h4>
-									<p className="text-justify">
-										Based on our knowledge and over 40 years of experience, we
-										are able to handle the entire material management on complex
-										construction projects from concept to execution phase.
-									</p>
-								</div>
-							</div>
-
-							<div className="col-lg-6 services-details-image">
-								<img
-									src="/images/service-6.jpg"
-									width="100%"
-									className="animate__animated animate__fadeInUp"
-									alt="Fabrication - United International Piping"
-								/>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>

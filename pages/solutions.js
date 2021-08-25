@@ -130,7 +130,7 @@ const Solutions = () => {
 								<p className="text-justify">
 									Heavy wall seamless and welded carbon & alloy pipes and
 									associated fittings and flanges, transition pieces and
-									completefabrication of jacketsand tripods.
+									complete fabrication of jacketsand tripods.
 								</p>
 							</div>
 						</div>
