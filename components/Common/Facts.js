@@ -18,7 +18,7 @@ const BigdataFunFacts = () => {
 						<div className="single-funfact">
 							<h3>Experience</h3>
 							<p className="text-justify">
-								UPS has brought together four decades of expertise and
+								UIP has brought together four decades of expertise and
 								experience in the field of pipe and piping components to meet
 								your requirements.
 							</p>
@@ -59,7 +59,7 @@ const BigdataFunFacts = () => {
 								seamless services at all times.
 							</p>
 							<p className="text-justify">
-								UPS has accomplished and organized itself to meet the demands of
+								UIP has accomplished and organized itself to meet the demands of
 								future developments in order to stay the preferred choice of
 								customer every time.
 							</p>

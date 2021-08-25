@@ -1,7 +1,7 @@
 {
 	"name": "united-international-piping",
 	"version": "3.2.0",
-	"description": "United Piping Solutions App in NextJS",
+	"description": "United International Piping App in NextJS",
 	"main": "index.js",
 	"scripts": {
 		"dev": "next dev",

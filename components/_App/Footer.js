@@ -19,11 +19,12 @@ const Footer = () => {
 								</Link>
 							</div>
 							<p>
-								United Piping Solutions (UPS) is the exclusive representative of
-								World Class international producers of Industrial Piping
-								materials. Our goal is to promote, supply and distribute their
-								piping products and services to Energy, Chemical, Petrochemical,
-								Shipbuilding and Mechanical industries globally.
+								United International Piping (UIP) is the exclusive
+								representative of World Class international producers of
+								Industrial Piping materials. Our goal is to promote, supply and
+								distribute their piping products and services to Energy,
+								Chemical, Petrochemical, Shipbuilding and Mechanical industries
+								globally.
 							</p>
 						</div>
 					</div>
@@ -38,8 +39,8 @@ const Footer = () => {
 									</Link>
 								</li>
 								<li>
-									<Link href="/ups-advantage">
-										<a>UPS Advantage</a>
+									<Link href="/uip-advantage">
+										<a>UIP Advantage</a>
 									</Link>
 								</li>
 								<li>
@@ -47,11 +48,7 @@ const Footer = () => {
 										<a>Solutions</a>
 									</Link>
 								</li>
-								<li>
-									<Link href="/fabrication">
-										<a>Fabrication</a>
-									</Link>
-								</li>
+
 								<li>
 									<Link href="/products">
 										<a>Products</a>
@@ -125,29 +122,14 @@ const Footer = () => {
 									Phone: <a href="tel:+97144328542">+971 4 432 8542</a>
 								</li>
 							</ul>
-							<ul className="social-links">
-								<div className="d-flex align-items-center justify-content-start justify-content-lg-evenly justify-content-xl-evenly">
-									<Link href="https://www.linkedin.com/company/united-piping-solutions">
-										<a className="linkedin" target="_blank">
-											<Icon.Linkedin />
-										</a>
-									</Link>
-									<a
-										className="mx-2 mx-lg-0 mx-xl-0"
-										href="https://www.linkedin.com/company/united-piping-solutions"
-									>
-										United Piping Solutions
-									</a>
-								</div>
-							</ul>
 						</div>
 					</div>
 				</div>
 				<div className="col-lg-12 col-md-12">
 					<div className="copyright-area">
 						<p>
-							Copyright &copy; {currentYear} United Piping Solutions. All rights
-							reserved.
+							Copyright &copy; {currentYear} United International Piping. All
+							rights reserved.
 						</p>
 					</div>
 				</div>

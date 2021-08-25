@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
 			<Head>
 				<meta charSet="utf-8" />
 
-				<title>United Piping Solutions | Piping the World</title>
+				<title>United International Piping | Piping the World</title>
 				<meta name="robots" content="index, follow" />
 				<meta
 					name="viewport"
@@ -19,21 +19,21 @@ const Layout = ({ children }) => {
 				/>
 				<meta
 					name="description"
-					content="United Piping Solutions (UPS) is the exclusive representative of World Class international producers of Industrial Piping materials."
+					content="United International Piping (UIP) is the exclusive representative of World Class international producers of Industrial Piping materials."
 				/>
 
 				<meta
 					name="og:title"
 					property="og:title"
-					content="United Piping Solutions | Piping the World"
+					content="United International Piping | Piping the World"
 				/>
 				<meta
 					name="twitter:card"
-					content="United Piping Solutions | Piping the World"
+					content="United International Piping | Piping the World"
 				/>
 				<link
 					rel="canonical"
-					href="https://united-piping-solutions.vercel.app/"
+					href="https://united-international-piping.vercel.app/"
 				></link>
 
 				<meta name="mobile-web-app-capable" content="yes" />
@@ -46,37 +46,37 @@ const Layout = ({ children }) => {
 					name="description"
 					property="description"
 					itemProp="description"
-					content="United Piping Solutions (UPS) is the exclusive representative of World Class international producers of Industrial Piping materials."
+					content="United International Piping (UIP) is the exclusive representative of World Class international producers of Industrial Piping materials."
 				/>
 
 				{/* Open Graph */}
 				<meta
 					name="og:title"
 					property="og:title"
-					content="United Piping Solutions | Piping the World"
+					content="United International Piping | Piping the World"
 				/>
 				<meta
 					name="og:description"
 					property="og:description"
-					content="United Piping Solutions (UPS) is the exclusive representative of World Class international producers of Industrial Piping materials."
+					content="United International Piping (UIP) is the exclusive representative of World Class international producers of Industrial Piping materials."
 				/>
 
 				<meta
 					name="og:image"
 					property="og:image"
-					content="https://united-piping-solutions.vercel.app/ups-og-img.png"
+					content="https://united-international-piping.vercel.app/uip-og-img.png"
 					itemProp="image"
 				/>
 				<meta name="og:type" content="website" />
 				<meta
 					name="og:url"
 					property="og:url"
-					content="https://united-piping-solutions.vercel.app/"
+					content="https://united-international-piping.vercel.app/"
 				/>
 				<meta
 					property="og:image:secure_url"
 					name="og:image:secure_url"
-					content="https://united-piping-solutions.vercel.app/"
+					content="https://united-international-piping.vercel.app/"
 				/>
 				<meta
 					property="og:image:type"
@@ -88,18 +88,18 @@ const Layout = ({ children }) => {
 				<meta
 					property="og:image:alt"
 					name="og:image:alt"
-					content="United Piping Solutions (UPS) is the exclusive representative of World Class international producers of Industrial Piping materials."
+					content="United International Piping (UIP) is the exclusive representative of World Class international producers of Industrial Piping materials."
 				/>
 				<meta
 					property="og:site_name"
 					name="og:site_name"
-					content="United Piping Solutions | Piping the World"
+					content="United International Piping | Piping the World"
 				/>
 				<meta property="og:locale" name="og:locale" content="en_US" />
 				<meta property="og:type" name="og:type" content="website" />
 				<meta
 					itemProp="name"
-					content="United Piping Solutions (UPS) is the exclusive representative of World Class international producers of Industrial Piping materials."
+					content="United International Piping (UIP) is the exclusive representative of World Class international producers of Industrial Piping materials."
 				/>
 			</Head>
 			<Navbar />

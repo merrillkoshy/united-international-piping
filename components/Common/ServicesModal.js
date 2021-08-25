@@ -32,7 +32,7 @@ const ServicesModal = ({ show, handleClose, modalHeader }) => {
 										<img
 											width="100%"
 											src="/images/service-1.jpg"
-											alt="Material Treatments - United Piping Solutions"
+											alt="Material Treatments - United International Piping"
 										/>
 									</div>
 								</div>
@@ -74,7 +74,7 @@ const ServicesModal = ({ show, handleClose, modalHeader }) => {
 										<img
 											width="100%"
 											src="/images/service-2.jpg"
-											alt="Logistics - United Piping Solutions"
+											alt="Logistics - United International Piping"
 										/>
 									</div>
 								</div>
@@ -102,7 +102,7 @@ const ServicesModal = ({ show, handleClose, modalHeader }) => {
 										<img
 											width="100%"
 											src="/images/service-3.jpg"
-											alt="Consultancy & Customer Dedicated - United Piping Solutions"
+											alt="Consultancy & Customer Dedicated - United International Piping"
 										/>
 									</div>
 								</div>
@@ -130,7 +130,7 @@ const ServicesModal = ({ show, handleClose, modalHeader }) => {
 										<img
 											width="100%"
 											src="/images/service-4.jpg"
-											alt="Document Management - United Piping Solutions"
+											alt="Document Management - United International Piping"
 										/>
 									</div>
 								</div>
@@ -168,7 +168,7 @@ const ServicesModal = ({ show, handleClose, modalHeader }) => {
 					<>
 						<div className="d-flex flex-column">
 							<p className="text-justify">
-								UPS has established a system which ensures the final product is
+								UIP has established a system which ensures the final product is
 								in line with the customer requirements. All the stages affecting
 								the product quality has been fully monitored & controlled by
 								equipped competent personnel. With our collaboration with
@@ -181,7 +181,7 @@ const ServicesModal = ({ show, handleClose, modalHeader }) => {
 										<img
 											width="100%"
 											src="/images/service-5.jpg"
-											alt="Consultancy & Customer Dedicated - United Piping Solutions"
+											alt="Consultancy & Customer Dedicated - United International Piping"
 										/>
 									</div>
 								</div>
@@ -220,78 +220,7 @@ const ServicesModal = ({ show, handleClose, modalHeader }) => {
 				);
 
 				break;
-			case "Fabrication":
-				return (
-					<div className="row align-items-center">
-						<h3>Specialized in Engineering & Fabrication Solutions</h3>
-						<div className="col-lg-6 services-details">
-							<div className="services-details-desc">
-								<p className="text-justify">
-									UPS has the capabilities to fabricate and spool large and
-									light structures, supports, pressure vessels, piping spools,
-									skid mounted systems, heat exchangers, columns, and storage
-									tanks as per the customer specific requirement in stainless
-									steel, duplex, super duplex, alloy steel & carbon steel. We
-									provide an in-house and sub-contracted expertise in designing,
-									production and site construction activities comprising of
-									mechanical, painting, electrical and instrumentation works
-									serving mid to large-scale and heavy-duty projects in
-									industries including Cement, Power, Refineries, Aluminum,
-									Steel Industry, Petrochemicals and Gas & Oil Sectors.
-								</p>
-							</div>
-						</div>
 
-						<div className="col-lg-6 services-details-image">
-							<Carousel
-								showArrows={true}
-								showIndicators={true}
-								showThumbs={false}
-								autoPlay={true}
-								infiniteLoop={true}
-								interval={4000}
-								stopOnHover={true}
-								onClickItem={(idx, item) => {
-									setIsOpenImage(true);
-									setPhotoIndex(idx);
-								}}
-							>
-								{images &&
-									images?.map((image) => {
-										return (
-											<img
-												key={image}
-												className={"fabrication-images"}
-												src={image}
-												alt={"Fabrication-United Piping Soluions"}
-											/>
-										);
-									})}
-							</Carousel>
-						</div>
-						{isOpenImage && (
-							<Lightbox
-								reactModalStyle={{
-									zIndex: 2000,
-								}}
-								mainSrc={images[photoIndex]}
-								nextSrc={images[(photoIndex + 1) % images.length]}
-								prevSrc={
-									images[(photoIndex + images.length - 1) % images.length]
-								}
-								onCloseRequest={() => setIsOpenImage(false)}
-								onMovePrevRequest={() =>
-									setPhotoIndex(
-										(photoIndex + images.length - 1) % images.length
-									)
-								}
-								onMoveNextRequest={() =>
-									setPhotoIndex((photoIndex + 1) % images.length)
-								}
-							/>
-						)}
-					</div>
-				);
 			default:
 				break;
 		}

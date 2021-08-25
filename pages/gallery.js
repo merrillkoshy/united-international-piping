@@ -65,13 +65,13 @@ const Gallery = () => {
 
 	const childElements = () => {
 		const material = "/images/gallery/ups-materials_";
-		const office = "/images/gallery/ups-office_";
+		// const office = "/images/gallery/uip-office_";
 		for (let index = 0; index < 102; index++) {
 			setImageArray((prev) => [material + index + ".jpg", ...prev]);
 		}
-		for (let index = 0; index < 8; index++) {
-			setImageArray((prev) => [office + index + ".jpg", ...prev]);
-		}
+		// for (let index = 0; index < 8; index++) {
+		// 	setImageArray((prev) => [office + index + ".jpg", ...prev]);
+		// }
 
 		return imageArray;
 	};
@@ -92,7 +92,7 @@ const Gallery = () => {
 				loader={<h4>Loading...</h4>}
 				endMessage={
 					<p style={{ textAlign: "center" }}>
-						<b>United Piping Solutions</b>
+						<b>United International Piping</b>
 					</p>
 				}
 				refreshFunction={refresh}
@@ -110,7 +110,7 @@ const Gallery = () => {
 						<div className="section-title">
 							<h2>On Camera</h2>
 							<div className="bar"></div>
-							<p>Here are some great shots from UPS!</p>
+							<p>Here are some great shots from UIP!</p>
 						</div>
 
 						<Masonry
