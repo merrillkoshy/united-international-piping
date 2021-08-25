@@ -1,0 +1,5 @@
+# Piping The World
+
+United Piping Solutions (UPS) is the exclusive representative of World Class international producers of Industrial Piping materials. Our goal is to promote, supply and distribute their piping products and services to Energy, Chemical, Petrochemical, Shipbuilding and Mechanical industries globally. UPS is strategically located in the DMCC free zone of Dubai. The company’s current geographical presence covers the GCC countries of the Middle East (KSA, OMAN, UAE, Kuwait, Bahrain & Qatar), in addition to China & South Korea.
+
+Our product portfolio consists of high quality industrial materials & products such as Steel Pipes, Pipe Fittings, Flanges, Plates, Valves and Stud Bolts. Materials of Construction of the products range from Plain Carbon Steels and low temperature grades to high yield grades, low and high Alloys, other Nickel Alloys, Stainless Steels, Chrome Moly and Clad materials. We are constantly expanding our product range to maintain the standards of global Piping Industry. All materials/products confirms to international standards such as API, ASTM, ASME, ISO, DIN & EN
