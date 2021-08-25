@@ -10,14 +10,14 @@ const PrivacyPolicy = () => {
 
 			<div className="main-text-area ptb-80">
 				<div className="container">
-					<h1>Privacy Policy for United International Piping LLC</h1>
+					<h1>Privacy Policy for United International Piping UK Ltd. </h1>
 
 					<p>
 						At United International Piping - Piping The World, accessible from
-						https://www.unitedpipinggroup.com, one of our main priorities is the
-						privacy of our visitors. This Privacy Policy document contains types
-						of information that is collected and recorded by United Piping
-						Solutions - Piping The World and how we use it.
+						https://www.unitedintlpipinggroupuk.com/, one of our main priorities
+						is the privacy of our visitors. This Privacy Policy document
+						contains types of information that is collected and recorded by
+						United International Piping - Piping The World and how we use it.
 					</p>
 
 					<p>
@@ -131,9 +131,9 @@ const PrivacyPolicy = () => {
 					<p>
 						Third-party ad servers or ad networks uses technologies like
 						cookies, JavaScript, or Web Beacons that are used in their
-						respective advertisements and links that appear on United Piping
-						Solutions - Piping The World, which are sent directly to users'
-						browser. They automatically receive your IP address when this
+						respective advertisements and links that appear on United
+						International Piping - Piping The World, which are sent directly to
+						users' browser. They automatically receive your IP address when this
 						occurs. These technologies are used to measure the effectiveness of
 						their advertising campaigns and/or to personalize the advertising
 						content that you see on websites that you visit.
